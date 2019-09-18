@@ -1,0 +1,238 @@
+$deepred: #e50000;
+$darkred: #cd2126;
+$boxgrey: #888888;
+
+body{
+    background-color: lightgrey;
+}
+
+* a{text-decoration: none;
+    color: white;
+}
+
+.contact{
+    position: absolute;
+    font-size: 30px;
+    background-image: linear-gradient(green,white, $deepred);
+    font-weight: bold;
+    color: Black;
+    right: 20px;
+    box-shadow: 7px 7px $boxgrey;
+    border-radius: 8px;
+    padding: 2px;
+
+}
+
+nav{
+    a:hover{
+        background-color: #cd2126;
+        font-size: 34px;
+        text-decoration: none;
+    }
+    position: fixed;
+    top:0px;
+    left: 200px;
+    margin-left: 15px;
+    font-size: 30px;
+    /* letter-spacing: 1px; */
+    word-spacing: 1px;
+    color: #000000;
+    background-color: $deepred;
+    box-shadow: 7px 7px $boxgrey;
+    border-radius: 8px;
+    padding: 2px;
+}
+
+a{
+    #logo{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+#content{
+    p{
+        border: 2px solid $deepred;
+    }
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    height: 1000px;
+}
+
+#store-hours{
+    th{
+        font-size: 20px;
+        text-decoration: underline;
+        width: 130px;
+        position: relative;
+        right: -30%;
+    }
+    margin-right: 30px;
+    padding-left: 25px;
+    border: ridge $deepred 5px;
+    background-color: beige;
+    width:30%;
+    height:200px;
+    float: right;
+}
+
+.clearfix{
+    clearfix::after;
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+#pizza-deal{
+    margin: 10px 0px 0px 25px;
+    width: 700px;
+    height: 400px;
+    float: left;
+    border: 5px ridge $deepred;
+}
+
+#icon{
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    width: 75px;
+    margin-left: auto;
+    position: sticky;
+    bottom: 10px;
+}
+
+aside{
+    a{
+        color: black;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+#review{
+    padding: 20px;
+    display: inline-block;
+    margin-left: -400px;
+}
+
+#commercial{
+    width: 750px;
+    height: 400px;
+    border: ridge 3px $boxgrey;
+    padding: 2px;
+}
+
+// a + a{
+//     height: 10px
+// }
+
+summary{
+    p{
+    font-size: 25px;
+    text-indent:2em;
+    }
+    span{
+        font-size: 25px;
+        font-style: italic;
+        text-decoration: underline;
+        text-shadow: 1px 1px grey;
+    }
+}
+
+.pizzas{
+    ul{
+        ul{
+            a{
+                text-align: center;
+                width: 30%;
+                float: right;
+                margin: 1.66%;
+                div{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+iframe{
+    width:400px;
+    height:300px;
+}
+
+#emailform{
+}
+.dropbtn{
+  background-color: $deepred;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  min-width: 160px;
+}
+
+.dropdown{
+  position: relative;
+  top: 50px;
+  display: inline-block;
+  box-shadow: 7px 7px $boxgrey;
+  border: 2px solid $darkred;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  font-size: 20px;
+  box-shadow: 7px 7px $boxgrey;
+  border-radius: 8px;
+  z-index: 1;
+    a{
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    }
+    a:hover{
+    background-color: #ddd;
+    }
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: $darkred;}
+
+.jumbotron{
+ background: url("https://retaildesignblog.net/wp-content/uploads/2014/04/Peppes-Pizza-restaurant-by-RISS-INTERIORARKITEKTER-Oslo-Norway.jpg") fixed center no-repeat;
+ background-size: cover;
+ background-color: white;
+ height: 400px;
+    h1{
+        color: white;
+        text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                     0px 8px 13px rgba(0,0,0,0.1),
+                     0px 18px 23px rgba(0,0,0,0.1);
+     }
+}
+.btn-group{
+    left: 2%
+}
+.bgimg{
+    height:550px;
+}
+.row{
+    z-index: -10;
+}
+@media (max-width: 768px){
+    #icon{
+        display:none;
+    }
+}
+@media (min-width: 768px){
+}
