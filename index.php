@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/style2.css">
     <script src="https://kit.fontawesome.com/f5a250744a.js"></script>
 </head>
-<body><?php echo "HIIII:I";?>
+<body>
+    <?php echo "HIIIII";?>
     <header class="bgimg">
         <div class="jumbotron">
             <a href="index.html"><img id="logo" src="images/okotoks-pizza-logo.png" title="Home" alt="logo";></a>
